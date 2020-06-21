@@ -1,7 +1,6 @@
 let accessToken;
 const clientId = "f5514988b8d248149a23e4c3c48c29b7";
 const redirectUri = "http://jammminglazer.surge.sh/"; 
-//"http://localhost:54741/";
 const Spotify = {
   getAccessToken() {
     if (accessToken) {
